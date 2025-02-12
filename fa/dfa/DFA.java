@@ -2,12 +2,26 @@ package fa.dfa;
 
 import java.util.*;
 
+/**
+ * @author Jordan Pittman
+ *
+ * Implimentation of the DFA interface class.
+ * Handles construction of DFAs and determining
+ * if strings are part of a DFA.
+ */
 public class DFA implements DFAInterface {
     private Set<DFAState> states = new LinkedHashSet<>();
     private Set<Character> alphabet = new LinkedHashSet<>();
     private DFAState startState;
     private Set<DFAState> finalStates = new LinkedHashSet<>();
 
+    /**
+     * Get the state with the given name from the 
+     * internal collection of states in this DFA
+     * @param name - the name of the DFAState
+     * @return DFAState - the state with this name, or null if no
+     *                    state with the given name is present in this DFA
+     */
     private DFAState get(String name) {
         for (DFAState s : states) if (s.getName().equals(name)) return s;
         return null;
