@@ -22,6 +22,10 @@ tests, and then added documentation where I felt it was needed and
 added some unit tests to cover some of the edge cases that didn't
 look like they were handled in the initial tests. That is it.
 
+### Jordan
+
+Overall, this project went pretty smooth due to the concepts being fairly simple to understand. I added some basic functionality of a DFA in the DFA.java file. This handles the states, transitions, and inputs. I also added individual states and store transitions in the DFAState.java. 
+
 ## Compiling and Using
    
 To compile the test cases, use the following command, replacing
