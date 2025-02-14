@@ -20,7 +20,7 @@ for adding test cases and documentation to the code. I spent
 some time reading through Jordan's implimentation and the existing
 tests, and then added documentation where I felt it was needed and
 added some unit tests to cover some of the edge cases that didn't
-look like they were handled in the initial tests. That is it.
+look like they were handled in the initial tests. 
 
 ### Jordan
 
